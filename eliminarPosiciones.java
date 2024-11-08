@@ -23,10 +23,12 @@ public class eliminarElementos {
         System.out.println("Posición a borrar: ");
         posicion = teclado.nextInt();
         }
+        System.out.println("No quedan posiciones.");
         
+        boolean negativo = true;
         if (posicion < 0) {
             System.out.println("Introduce la posición que deseas eliminar: ");
-            System.exit(0);
+            negativo = false;
         }
 
     }
